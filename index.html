@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baca Yasin</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.2/dist/full.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .arabic-text {
+            font-family: 'Amiri', serif;
+            line-height: 2.5rem;
+        }
+        .transition-200 {
+            transition: all 0.2s ease-in-out;
+        }
+        .card {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-base-100">
+    <div class="drawer drawer-end">
+        <input id="settings-drawer" type="checkbox" class="drawer-toggle" />
+        
+        <div class="drawer-content flex flex-col">
+            <nav class="navbar bg-base-200 sticky top-0 z-50 shadow-lg px-4">
+                <div class="flex-1">
+                    <h1 class="text-xl font-bold">Yasin</h1>
+                </div>
+                <div class="flex-none">
+                    <label for="settings-drawer" class="btn btn-circle btn-ghost">
+                        <i class="fas fa-cog text-xl"></i>
+                    </label>
+                </div>
+            </nav>
+
+            <main class="p-4 pb-20">
+                <div id="ayat-container" class="max-w-4xl mx-auto space-y-4"></div>
+            </main>
+        </div>
+        
+        <div class="drawer-side z-50">
+            <label for="settings-drawer" class="drawer-overlay"></label>
+            <div class="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+                <div class="flex items-center justify-between mb-6">
+                    <h2 class="text-xl font-bold">Pengaturan Tampilan</h2>
+                    <label for="settings-drawer" class="btn btn-sm btn-circle">
+                        <i class="fas fa-times"></i>
+                    </label>
+                </div>
+                
+                <div class="space-y-4">
+                    <div class="form-control">
+                        <label class="label cursor-pointer justify-start gap-3">
+                            <input type="checkbox" id="toggle-arabic" class="toggle toggle-primary" checked />
+                            <span class="label-text">Tampilkan Teks Arab</span>
+                        </label>
+                    </div>
+                    
+                    <div class="form-control">
+                        <label class="label cursor-pointer justify-start gap-3">
+                            <input type="checkbox" id="toggle-latin" class="toggle toggle-primary" />
+                            <span class="label-text">Tampilkan Transliterasi</span>
+                        </label>
+                    </div>
+                    
+                    <div class="form-control">
+                        <label class="label cursor-pointer justify-start gap-3">
+                            <input type="checkbox" id="toggle-en" class="toggle toggle-primary" />
+                            <span class="label-text">Tampilkan Terjemahan Inggris</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const getSavedSettings = () => ({
+            arabic: localStorage.getItem('showArabic') !== 'false',
+            latin: localStorage.getItem('showLatin') === 'true',
+            en: localStorage.getItem('showEn') === 'true'
+        });
+
+        const updateDisplay = () => {
+            const settings = getSavedSettings();
+            document.querySelectorAll('.arabic-text').forEach(el => 
+                el.classList.toggle('hidden', !settings.arabic));
+            document.querySelectorAll('.latin-text').forEach(el => 
+                el.classList.toggle('hidden', !settings.latin));
+            document.querySelectorAll('.en-text').forEach(el => 
+                el.classList.toggle('hidden', !settings.en));
+        };
+
+        document.getElementById('toggle-arabic').addEventListener('change', (e) => {
+            localStorage.setItem('showArabic', e.target.checked);
+            updateDisplay();
+        });
+
+        document.getElementById('toggle-latin').addEventListener('change', (e) => {
+            localStorage.setItem('showLatin', e.target.checked);
+            updateDisplay();
+        });
+
+        document.getElementById('toggle-en').addEventListener('change', (e) => {
+            localStorage.setItem('showEn', e.target.checked);
+            updateDisplay();
+        });
+
+        fetch('yasin.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('ayat-container');
+                
+                data.ayat.forEach(ayat => {
+                    const ayatElement = `
+                        <div class="card bg-base-200 transition-200 hover:bg-base-300">
+                            <div class="card-body p-4">
+                                <div class="flex justify-between items-center mb-2">
+                                    <div class="badge badge-primary">Ayat ${ayat.index}</div>
+                                </div>
+                                
+                                <div class="arabic-text text-2xl text-right mb-2 leading-[2.5rem]">
+                                    ${ayat.arabic}
+                                </div>
+                                
+                                <div class="latin-text text-sm italic text-gray-400 hidden">
+                                    ${ayat.latin}
+                                </div>
+                                
+                                <div class="text-gray-300">
+                                    ${ayat.indo}
+                                </div>
+                                
+                                <div class="en-text text-gray-400 italic text-sm hidden">
+                                    ${ayat.en}
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    container.innerHTML += ayatElement;
+                });
+
+                const settings = getSavedSettings();
+                document.getElementById('toggle-arabic').checked = settings.arabic;
+                document.getElementById('toggle-latin').checked = settings.latin;
+                document.getElementById('toggle-en').checked = settings.en;
+                updateDisplay();
+
+                setTimeout(() => {
+                    document.querySelectorAll('.card').forEach((card, index) => {
+                        card.style.opacity = '1';
+                        card.style.transform = 'translateY(0)';
+                    });
+                }, 100);
+            })
+            .catch(error => {
+                console.error('Error loading data:', error);
+                container.innerHTML = `<div class="alert alert-error">Gagal memuat data Yasin</div>`;
+            });
+
+        const scrollToTopBtn = document.createElement('div');
+        scrollToTopBtn.innerHTML = `
+            <button class="btn btn-circle btn-primary fixed bottom-20 right-4 shadow-lg">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        `;
+        scrollToTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        document.body.appendChild(scrollToTopBtn);
+
+        let touchStartX = 0;
+        document.body.addEventListener('touchstart', e => {
+            touchStartX = e.changedTouches[0].screenX;
+        }, false);
+
+        document.body.addEventListener('touchend', e => {
+            const touchEndX = e.changedTouches[0].screenX;
+            const diffX = touchStartX - touchEndX;
+            
+            if (Math.abs(diffX) > 50) {
+                document.getElementById('settings-drawer').checked = diffX > 0;
+            }
+        }, false);
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+</body>
+</html>
