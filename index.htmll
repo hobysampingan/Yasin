@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surah Yasin Reader</title>
+  <!-- Tailwind and DaisyUI -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- Custom Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    .arabic-text {
+      font-family: 'Amiri', serif;
+      font-size: 1.8rem;
+      line-height: 2.5rem;
+      text-align: right;
+      direction: rtl;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-gray-200 min-h-screen">
+  <!-- App Container -->
+  <div class="container mx-auto px-4 py-6">
+    <!-- Header -->
+    <header class="flex flex-col items-center mb-6">
+      <h1 class="text-3xl font-bold text-primary mb-2">Surah Yasin</h1>
+      <div class="bg-base-300 rounded-lg p-4 w-full shadow-lg">
+        <div class="flex justify-around">
+          <button id="settingsBtn" class="btn btn-circle btn-ghost">
+            <i class="fas fa-cog text-lg"></i>
+          </button>
+          <div class="text-center">
+            <span class="text-lg font-semibold">سُورَةُ يس</span>
+            <div class="text-sm opacity-70">36 Ayat - Makkiyah</div>
+          </div>
+          <button id="infoBtn" class="btn btn-circle btn-ghost">
+            <i class="fas fa-info text-lg"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Settings Modal -->
+    <div id="settingsModal" class="modal">
+      <div class="modal-box bg-base-200">
+        <h3 class="font-bold text-lg mb-4">Display Settings</h3>
+        <div class="form-control">
+          <label class="label cursor-pointer">
+            <span class="label-text">Arabic</span> 
+            <input type="checkbox" id="showArabic" class="toggle toggle-primary" />
+          </label>
+        </div>
+        <div class="form-control">
+          <label class="label cursor-pointer">
+            <span class="label-text">Latin</span> 
+            <input type="checkbox" id="showLatin" checked class="toggle toggle-primary" />
+          </label>
+        </div>
+        <div class="form-control">
+          <label class="label cursor-pointer">
+            <span class="label-text">Indonesian</span> 
+            <input type="checkbox" id="showIndo" class="toggle toggle-primary" />
+          </label>
+        </div>
+        <div class="form-control">
+          <label class="label cursor-pointer">
+            <span class="label-text">English</span> 
+            <input type="checkbox" id="showEn" class="toggle toggle-primary" />
+          </label>
+        </div>
+        <div class="form-control mt-4">
+          <label class="label">
+            <span class="label-text">Font Size</span>
+          </label>
+          <input type="range" min="1" max="3" value="2" class="range range-primary" id="fontSize" />
+          <div class="flex justify-between text-xs px-2">
+            <span>Small</span>
+            <span>Medium</span>
+            <span>Large</span>
+          </div>
+        </div>
+        <div class="modal-action">
+          <button id="closeSettings" class="btn btn-primary">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Info Modal -->
+    <div id="infoModal" class="modal">
+      <div class="modal-box bg-base-200">
+        <h3 class="font-bold text-lg">About Surah Yasin</h3>
+        <p class="py-4">
+          Surah Yasin is the 36th chapter of the Quran, consisting of 83 verses. It is often referred to as the "Heart of the Quran" and is commonly read for the deceased and those who are ill.
+        </p>
+        <div class="modal-action">
+          <button id="closeInfo" class="btn btn-primary">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ayat List Container -->
+    <div id="ayatContainer" class="space-y-6 pb-20">
+      <!-- Ayat will be loaded here by JavaScript -->
+      <div class="flex justify-center">
+        <div class="loading loading-spinner loading-lg text-primary"></div>
+      </div>
+    </div>
+
+    <!-- Footer Navigation -->
+    <footer class="btm-nav bg-base-300">
+      <button id="prevBtn" class="text-primary">
+        <i class="fas fa-chevron-left"></i>
+        <span>Previous</span>
+      </button>
+      <button id="scrollTopBtn" class="text-primary">
+        <i class="fas fa-arrow-up"></i>
+        <span>Top</span>
+      </button>
+      <button id="nextBtn" class="text-primary">
+        <span>Next</span>
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </footer>
+  </div>
+
+  <script>
+    // Mock data for development (from your sample)
+    
+
+    // For a complete app, load from yasin.json
+     async function loadYasinData() {
+       const response = await fetch('yasin.json');
+       return await response.json();
+     }
+
+    // Function to render ayat
+    function renderAyat() {
+      const container = document.getElementById('ayatContainer');
+      container.innerHTML = '';
+
+      const showArabic = document.getElementById('showArabic').checked;
+      const showLatin = document.getElementById('showLatin').checked;
+      const showIndo = document.getElementById('showIndo').checked;
+      const showEn = document.getElementById('showEn').checked;
+      const fontSizeLevel = document.getElementById('fontSize').value;
+
+      // Font size classes based on slider value
+      const fontSizes = {
+        '1': 'text-base',
+        '2': 'text-lg',
+        '3': 'text-xl'
+      };
+      const fontSizeClass = fontSizes[fontSizeLevel];
+
+      yasinData.ayat.forEach(ayat => {
+        const ayatElement = document.createElement('div');
+        ayatElement.id = `ayat-${ayat.index}`;
+        ayatElement.className = 'card bg-base-200 shadow-xl';
+
+        let ayatContent = `
+          <div class="card-body">
+            <div class="flex justify-between items-center mb-2">
+              <div class="badge badge-primary badge-lg">${ayat.index}</div>
+              <button class="btn btn-ghost btn-circle btn-sm" onclick="shareAyat(${ayat.index})">
+                <i class="fas fa-share-alt"></i>
+              </button>
+            </div>
+        `;
+
+        if (showArabic) {
+          ayatContent += `<div class="arabic-text mb-4">${ayat.arabic}</div>`;
+        }
+
+        if (showLatin) {
+          ayatContent += `<div class="${fontSizeClass} font-medium mb-2">${ayat.latin}</div>`;
+        }
+
+        if (showIndo) {
+          ayatContent += `<div class="${fontSizeClass} text-gray-300 mb-2">${ayat.indo}</div>`;
+        }
+
+        if (showEn) {
+          ayatContent += `<div class="${fontSizeClass} text-gray-400">${ayat.en}</div>`;
+        }
+
+        ayatContent += `</div>`;
+        ayatElement.innerHTML = ayatContent;
+        container.appendChild(ayatElement);
+      });
+    }
+
+    // Handle settings modal
+    const settingsBtn = document.getElementById('settingsBtn');
+    const settingsModal = document.getElementById('settingsModal');
+    const closeSettings = document.getElementById('closeSettings');
+
+    settingsBtn.addEventListener('click', () => {
+      settingsModal.classList.add('modal-open');
+    });
+
+    closeSettings.addEventListener('click', () => {
+      settingsModal.classList.remove('modal-open');
+      renderAyat();
+    });
+
+    // Handle info modal
+    const infoBtn = document.getElementById('infoBtn');
+    const infoModal = document.getElementById('infoModal');
+    const closeInfo = document.getElementById('closeInfo');
+
+    infoBtn.addEventListener('click', () => {
+      infoModal.classList.add('modal-open');
+    });
+
+    closeInfo.addEventListener('click', () => {
+      infoModal.classList.remove('modal-open');
+    });
+
+    // Setup navigation
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+    scrollTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // In a real app with more ayat, these would navigate between pages or groups of ayat
+    prevBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      // Add logic for previous page/section
+    });
+
+    nextBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      // Add logic for next page/section
+    });
+
+    // Setup language toggles to trigger re-render
+    document.getElementById('showArabic').addEventListener('change', renderAyat);
+    document.getElementById('showLatin').addEventListener('change', renderAyat);
+    document.getElementById('showIndo').addEventListener('change', renderAyat);
+    document.getElementById('showEn').addEventListener('change', renderAyat);
+    document.getElementById('fontSize').addEventListener('input', renderAyat);
+
+    // Share functionality (simplified)
+    window.shareAyat = function(index) {
+      const ayat = yasinData.ayat.find(a => a.index === index);
+      if (!ayat) return;
+      
+      // In a real app, this would use the Web Share API
+      alert(`Share Ayat ${index}: ${ayat.latin}`);
+    };
+
+    // Initialize the app
+    renderAyat();
+  </script>
+</body>
+</html>
