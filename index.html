@@ -132,14 +132,30 @@
   </div>
 
   <script>
-    // Mock data for development (from your sample)
-    
+    let yasinData = null;
 
-    // For a complete app, load from yasin.json
-     async function loadYasinData() {
-       const response = await fetch('yasin.json');
-       return await response.json();
-     }
+// Function to load data from yasin.json
+async function loadYasinData() {
+  try {
+    const response = await fetch('yasin.json');
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    yasinData = await response.json();
+    renderAyat();
+  } catch (error) {
+    console.error("Error loading yasin.json:", error);
+    document.getElementById('ayatContainer').innerHTML = `
+      <div class="alert alert-error">
+        <i class="fas fa-exclamation-circle mr-2"></i>
+        Failed to load Surah Yasin data. Please check if yasin.json is available.
+      </div>
+    `;
+  }
+}
+
+// Initialize the app - replace the direct renderAyat() call with this:
+
 
     // Function to render ayat
     function renderAyat() {
@@ -261,7 +277,7 @@
     };
 
     // Initialize the app
-    renderAyat();
+    document.addEventListener('DOMContentLoaded', loadYasinData);
   </script>
 </body>
 </html>
