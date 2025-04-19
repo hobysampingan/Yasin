@@ -1,0 +1,586 @@
+{
+  "surah": "Yasin",
+  "ayat": [
+    {
+      "index": 1,
+      "arabic": "يٰسۤ ۚ",
+      "latin": "yā sīn.",
+      "indo": "Ya Sin",
+      "en": "Ya, Seen."
+    },
+    {
+      "index": 2,
+      "arabic": "وَالْقُرْاٰنِ الْحَكِيْمِۙ ",
+      "latin": "wal-qur'ānil-ḥakīm(i).",
+      "indo": "Demi Al-Qur'an yang penuh hikmah,",
+      "en": "By the wise Qur'an."
+    },
+    {
+      "index": 3,
+      "arabic": "اِنَّكَ لَمِنَ الْمُرْسَلِيْنَۙ ",
+      "latin": "innaka laminal-mursalīn(a).",
+      "indo": "sungguh, engkau (Muhammad) adalah salah seorang dari rasul-rasul,",
+      "en": "Indeed you, [O Muhammad], are from among the messengers,"
+    },
+    {
+      "index": 4,
+      "arabic": "عَلٰى صِرَاطٍ مُّسْتَقِيْمٍۗ ",
+      "latin": "‘alā ṣirāṭim mustaqīm(in).",
+      "indo": "(yang berada) di atas jalan yang lurus,",
+      "en": "On a straight path."
+    },
+    {
+      "index": 5,
+      "arabic": "تَنْزِيْلَ الْعَزِيْزِ الرَّحِيْمِۙ ",
+      "latin": "tanzīlal-‘azīzir-raḥīm(i).",
+      "indo": "(sebagai wahyu) yang diturunkan oleh (Allah) Yang Mahaperkasa, Maha Penyayang,",
+      "en": "[This is] a revelation of the Exalted in Might, the Merciful,"
+    },
+    {
+      "index": 6,
+      "arabic": "لِتُنْذِرَ قَوْمًا مَّآ اُنْذِرَ اٰبَاۤؤُهُمْ فَهُمْ غٰفِلُوْنَ ",
+      "latin": "litunżira qaumam mā unżira ābā'uhum fahum gāfilūn(a).",
+      "indo": "agar engkau memberi peringatan kepada suatu kaum yang nenek moyangnya belum pernah diberi peringatan, karena itu mereka lalai.",
+      "en": "That you may warn a people whose forefathers were not warned, so they are unaware."
+    },
+    {
+      "index": 7,
+      "arabic": "لَقَدْ حَقَّ الْقَوْلُ عَلٰٓى اَكْثَرِهِمْ فَهُمْ لَا يُؤْمِنُوْنَ ",
+      "latin": "laqad ḥaqqal-qaulu ‘alā akṡarihim fahum lā yu'minūn(a).",
+      "indo": "Sungguh, pasti berlaku perkataan (hukuman) terhadap kebanyakan mereka, karena mereka tidak beriman.",
+      "en": "Already the word has come into effect upon most of them, so they do not believe."
+    },
+    {
+      "index": 8,
+      "arabic": "اِنَّا جَعَلْنَا فِيْٓ اَعْنَاقِهِمْ اَغْلٰلًا فَهِيَ اِلَى الْاَذْقَانِ فَهُمْ مُّقْمَحُوْنَ ",
+      "latin": "innā ja‘alnā fī a‘nāqihim aglālan fa hiya ilal-ażqāni fahum muqmaḥūn(a).",
+      "indo": "Sungguh, Kami telah memasang belenggu di leher mereka, lalu tangan mereka (diangkat) ke dagu, karena itu mereka tertengadah.",
+      "en": "Indeed, We have put shackles on their necks, and they are to their chins, so they are with heads [kept] aloft."
+    },
+    {
+      "index": 9,
+      "arabic": "وَجَعَلْنَا مِنْۢ بَيْنِ اَيْدِيْهِمْ سَدًّا وَّمِنْ خَلْفِهِمْ سَدًّا فَاَغْشَيْنٰهُمْ فَهُمْ لَا يُبْصِرُوْنَ ",
+      "latin": "wa ja‘alnā mim baini aidīhim saddaw wa min khalfihim saddan fa agsyaināhum fahum lā yubṣirūn(a).",
+      "indo": "Dan Kami jadikan di hadapan mereka sekat (dinding) dan di belakang mereka juga sekat, dan Kami tutup (mata) mereka sehingga mereka tidak dapat melihat.",
+      "en": "And We have put before them a barrier and behind them a barrier and covered them, so they do not see."
+    },
+    {
+      "index": 10,
+      "arabic": "وَسَوَاۤءٌ عَلَيْهِمْ ءَاَنْذَرْتَهُمْ اَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُوْنَ ",
+      "latin": "wa sawā'un ‘alaihim a'anżartahum am lam tunżirhum lā yu'minūn(a).",
+      "indo": "Dan sama saja bagi mereka, apakah engkau memberi peringatan kepada mereka atau engkau tidak memberi peringatan kepada mereka, mereka tidak akan beriman juga.",
+      "en": "And it is all the same for them whether you warn them or do not warn them - they will not believe."
+    },
+    {
+      "index": 11,
+      "arabic": "اِنَّمَا تُنْذِرُ مَنِ اتَّبَعَ الذِّكْرَ وَخَشِيَ الرَّحْمٰنَ بِالْغَيْبِۚ فَبَشِّرْهُ بِمَغْفِرَةٍ وَّاَجْرٍ كَرِيْمٍ ",
+      "latin": "innamā tunżiru manittaba‘aż-żikra wa khasyiyar-raḥmāna bil-gaib(i), fa basysyirhu bimagfiratiw wa ajrin karīm(in).",
+      "indo": "Sesungguhnya engkau hanya memberi peringatan kepada orang-orang yang mau mengikuti peringatan dan yang takut kepada Tuhan Yang Maha Pengasih, walaupun mereka tidak melihat-Nya. Maka berilah mereka kabar gembira dengan ampunan dan pahala yang mulia.",
+      "en": "You can only warn one who follows the message and fears the Most Merciful unseen. So give him good tidings of forgiveness and noble reward."
+    },
+    {
+      "index": 12,
+      "arabic": "اِنَّا نَحْنُ نُحْيِ الْمَوْتٰى وَنَكْتُبُ مَا قَدَّمُوْا وَاٰثَارَهُمْۗ وَكُلَّ شَيْءٍ اَحْصَيْنٰهُ فِيْٓ اِمَامٍ مُّبِيْنٍ ࣖ",
+      "latin": "innā naḥnu nuḥyil-mautā wa naktubu mā qaddamū wa āṡārahum, wa kulla syai'in aḥṣaināhu fī imāmim mubīn(in).",
+      "indo": "Sungguh, Kamilah yang menghidupkan orang-orang yang mati, dan Kamilah yang mencatat apa yang telah mereka kerjakan dan bekas-bekas yang mereka (tinggalkan). Dan segala sesuatu Kami kumpulkan dalam Kitab yang jelas (Lauh Mahfuzh).",
+      "en": "Indeed, it is We who bring the dead to life and record what they have put forth and what they left behind, and all things We have enumerated in a clear register."
+    },
+    {
+      "index": 13,
+      "arabic": "وَاضْرِبْ لَهُمْ مَّثَلًا اَصْحٰبَ الْقَرْيَةِۘ اِذْ جَاۤءَهَا الْمُرْسَلُوْنَۚ ",
+      "latin": "waḍrib lahum maṡalan aṣḥābal-qaryah(ti), iż jā'ahal-mursalūn(a).",
+      "indo": "Dan buatlah suatu perumpamaan bagi mereka, yaitu penduduk suatu negeri, ketika utusan-utusan datang kepada mereka;",
+      "en": "And present to them an example: the people of the city, when the messengers came to it -"
+    },
+    {
+      "index": 14,
+      "arabic": "اِذْ اَرْسَلْنَآ اِلَيْهِمُ اثْنَيْنِ فَكَذَّبُوْهُمَا فَعَزَّزْنَا بِثَالِثٍ فَقَالُوْٓا اِنَّآ اِلَيْكُمْ مُّرْسَلُوْنَ ",
+      "latin": "iż arsalnā ilaihimuṡnaini fa każżabūhumā fa ‘azzaznā biṡāliṡin faqālū innā ilaikum mursalūn(a).",
+      "indo": "(yaitu) ketika Kami mengutus kepada mereka dua orang utusan, lalu mereka mendustakan keduanya; kemudian Kami kuatkan dengan (utusan) yang ketiga, maka ketiga (utusan itu) berkata, “Sungguh, kami adalah orang-orang yang diutus kepadamu.”",
+      "en": "When We sent to them two but they denied them, so We strengthened them with a third, and they said, \"Indeed, we are messengers to you.\""
+    },
+    {
+      "index": 15,
+      "arabic": "قَالُوْا مَآ اَنْتُمْ اِلَّا بَشَرٌ مِّثْلُنَاۙ وَمَآ اَنْزَلَ الرَّحْمٰنُ مِنْ شَيْءٍۙ اِنْ اَنْتُمْ اِلَّا تَكْذِبُوْنَ ",
+      "latin": "qālū mā antum illā basyarum miṡlunā, wa mā anzalar-raḥmānu min syai'(in), in antum illā takżibūn(a).",
+      "indo": "Mereka (penduduk negeri) menjawab, “Kamu ini hanyalah manusia seperti kami, dan (Allah) Yang Maha Pengasih tidak menurunkan sesuatu apa pun; kamu hanyalah pendusta belaka.”",
+      "en": "They said, \"You are not but human beings like us, and the Most Merciful has not revealed a thing. You are only telling lies.\""
+    },
+    {
+      "index": 16,
+      "arabic": "قَالُوْا رَبُّنَا يَعْلَمُ اِنَّآ اِلَيْكُمْ لَمُرْسَلُوْنَ ",
+      "latin": "qālū rabbunā ya‘lamu innā ilaikum lamursalūn(a).",
+      "indo": "Mereka berkata, “Tuhan kami mengetahui sesungguhnya kami adalah utusan-utusan(-Nya) kepada kamu.",
+      "en": "They said, \"Our Lord knows that we are messengers to you,"
+    },
+    {
+      "index": 17,
+      "arabic": "وَمَا عَلَيْنَآ اِلَّا الْبَلٰغُ الْمُبِيْنُ ",
+      "latin": "wa mā ‘alainā illal-balāgul-mubīn(u).",
+      "indo": "Dan kewajiban kami hanyalah menyampaikan (perintah Allah) dengan jelas.”",
+      "en": "And we are not responsible except for clear notification.\""
+    },
+    {
+      "index": 18,
+      "arabic": "قَالُوْٓا اِنَّا تَطَيَّرْنَا بِكُمْۚ  لَىِٕنْ لَّمْ تَنْتَهُوْا لَنَرْجُمَنَّكُمْ وَلَيَمَسَّنَّكُمْ مِّنَّا عَذَابٌ اَلِيْمٌ ",
+      "latin": "qālū innā taṭayyarnā bikum, la'il lam tantahū lanarjumannakum wa layamassannakum minnā ‘ażābun alīm(un).",
+      "indo": "Mereka menjawab, “Sesungguhnya kami bernasib malang karena kamu. Sungguh, jika kamu tidak berhenti (menyeru kami), niscaya kami rajam kamu dan kamu pasti akan merasakan siksaan yang pedih dari kami.”",
+      "en": "They said, \"Indeed, we consider you a bad omen. If you do not desist, we will surely stone you, and there will surely touch you, from us, a painful punishment.\""
+    },
+    {
+      "index": 19,
+      "arabic": "قَالُوْا طَاۤىِٕرُكُمْ مَّعَكُمْۗ اَىِٕنْ ذُكِّرْتُمْۗ بَلْ اَنْتُمْ قَوْمٌ مُّسْرِفُوْنَ ",
+      "latin": "qālū ṭā'irukum ma‘akum, a'in żukkirtum, bal antum qaumum musrifūn(a).",
+      "indo": "Mereka (utusan-utusan) itu berkata, “Kemalangan kamu itu adalah karena kamu sendiri. Apakah karena kamu diberi peringatan? Sebenarnya kamu adalah kaum yang melampaui batas.”",
+      "en": "They said, \"Your omen is with yourselves. Is it because you were reminded? Rather, you are a transgressing people.\""
+    },
+    {
+      "index": 20,
+      "arabic": "وَجَاۤءَ مِنْ اَقْصَا الْمَدِيْنَةِ رَجُلٌ يَّسْعٰى قَالَ يٰقَوْمِ اتَّبِعُوا الْمُرْسَلِيْنَۙ  ",
+      "latin": "wa jā'a min aqṣal-madīnati rajuluy yas‘ā qāla yā qaumittabi‘ul-mursalīn(a).",
+      "indo": "Dan datanglah dari ujung kota, seorang laki-laki dengan bergegas dia berkata, “Wahai kaumku! Ikutilah utusan-utusan itu.",
+      "en": "And there came from the farthest end of the city a man, running. He said, \"O my people, follow the messengers."
+    },
+    {
+      "index": 21,
+      "arabic": "اتَّبِعُوْا مَنْ لَّا يَسْـَٔلُكُمْ اَجْرًا وَّهُمْ مُّهْتَدُوْنَ  ۔",
+      "latin": "ittabi‘ū mal lā yas'alukum ajraw wa hum muhtadūn(a).",
+      "indo": "Ikutilah orang yang tidak meminta imbalan kepadamu; dan mereka adalah orang-orang yang mendapat petunjuk.",
+      "en": "Follow those who do not ask of you [any] payment, and they are [rightly] guided."
+    },
+    {
+      "index": 22,
+      "arabic": "وَمَا لِيَ لَآ اَعْبُدُ الَّذِيْ فَطَرَنِيْ وَاِلَيْهِ تُرْجَعُوْنَ ",
+      "latin": "wa mā liya lā a‘budul-lażī faṭaranī wa ilaihi turja‘ūn(a).",
+      "indo": "Dan tidak ada alasan bagiku untuk tidak menyembah (Allah) yang telah menciptakanku dan hanya kepada-Nyalah kamu akan dikembalikan.",
+      "en": "And why should I not worship He who created me and to whom you will be returned?"
+    },
+    {
+      "index": 23,
+      "arabic": "ءَاَتَّخِذُ مِنْ دُوْنِهٖٓ اٰلِهَةً اِنْ يُّرِدْنِ الرَّحْمٰنُ بِضُرٍّ لَّا تُغْنِ عَنِّيْ شَفَاعَتُهُمْ شَيْـًٔا وَّلَا يُنْقِذُوْنِۚ ",
+      "latin": "a'attakhiżu min dūnihī ālihatan iy yuridnir-raḥmānu biḍurril lā tugni ‘annī syafā‘atuhum syai'aw wa lā yunqiżūn(i).",
+      "indo": "Mengapa aku akan menyembah tuhan-tuhan selain-Nya? Jika (Allah) Yang Maha Pengasih menghendaki bencana terhadapku, pasti pertolongan mereka tidak berguna sama sekali bagi diriku dan mereka (juga) tidak dapat menyelamatkanku.",
+      "en": "Should I take other than Him [false] deities [while], if the Most Merciful intends for me some adversity, their intercession will not avail me at all, nor can they save me?"
+    },
+    {
+      "index": 24,
+      "arabic": "اِنِّيْٓ اِذًا لَّفِيْ ضَلٰلٍ مُّبِيْنٍ ",
+      "latin": "innī iżal lafī ḍalālim mubīn(in).",
+      "indo": "Sesungguhnya jika aku (berbuat) begitu, pasti aku berada dalam kesesatan yang nyata.",
+      "en": "Indeed, I would then be in manifest error."
+    },
+    {
+      "index": 25,
+      "arabic": "اِنِّيْٓ اٰمَنْتُ بِرَبِّكُمْ فَاسْمَعُوْنِۗ  ",
+      "latin": "innī āmantu birabbikum fasma‘ūn(i).",
+      "indo": "Sesungguhnya aku telah beriman kepada Tuhanmu; maka dengarkanlah (pengakuan keimanan)-ku.”",
+      "en": "Indeed, I have believed in your Lord, so listen to me.\""
+    },
+    {
+      "index": 26,
+      "arabic": "قِيْلَ ادْخُلِ الْجَنَّةَ ۗقَالَ يٰلَيْتَ قَوْمِيْ يَعْلَمُوْنَۙ",
+      "latin": "qīladkhulil-jannah(ta), qāla yā laita qaumī ya‘lamūn(a).",
+      "indo": "Dikatakan (kepadanya), “Masuklah ke surga.” Dia (laki-laki itu) berkata, “Alangkah baiknya sekiranya kaumku mengetahui,",
+      "en": "It was said, \"Enter Paradise.\" He said, \"I wish my people could know"
+    },
+    {
+      "index": 27,
+      "arabic": "بِمَا غَفَرَ لِيْ رَبِّيْ وَجَعَلَنِيْ مِنَ الْمُكْرَمِيْنَ",
+      "latin": "bimā gafaralī rabbī wa ja‘alanī minal-mukramīn(a).",
+      "indo": "apa yang menyebabkan Tuhanku memberi ampun kepadaku dan menjadikan aku termasuk orang-orang yang telah dimuliakan.”",
+      "en": "Of how my Lord has forgiven me and placed me among the honored.\""
+    },
+    {
+      "index": 28,
+      "arabic": "۞ وَمَآ اَنْزَلْنَا عَلٰى قَوْمِهٖ مِنْۢ بَعْدِهٖ مِنْ جُنْدٍ مِّنَ السَّمَاۤءِ وَمَا كُنَّا مُنْزِلِيْنَ  ",
+      "latin": "wa mā anzalnā ‘alā qaumihī mim ba‘dihī min jundim minas-samā'i wa mā kunnā munzilīn(a).",
+      "indo": "Dan setelah dia (meninggal), Kami tidak menurunkan suatu pasukan pun dari langit kepada kaumnya, dan Kami tidak perlu menurunkannya.",
+      "en": "And We did not send down upon his people after him any soldiers from the heaven, nor would We have done so."
+    },
+    {
+      "index": 29,
+      "arabic": "اِنْ كَانَتْ اِلَّا صَيْحَةً وَّاحِدَةً فَاِذَا هُمْ خٰمِدُوْنَ ",
+      "latin": "in kānat illā ṣaiḥataw wāḥidatan fa'iżā hum khāmidūn(a).",
+      "indo": "Tidak ada siksaan terhadap mereka melainkan dengan satu teriakan saja; maka seketika itu mereka mati.",
+      "en": "It was not but one shout, and immediately they were extinguished."
+    },
+    {
+      "index": 30,
+      "arabic": "يٰحَسْرَةً عَلَى الْعِبَادِۚ مَا يَأْتِيْهِمْ مِّنْ رَّسُوْلٍ اِلَّا كَانُوْا بِهٖ يَسْتَهْزِءُوْنَ ",
+      "latin": "yā ḥasratan ‘alal-‘ibād(i), mā ya'tīhim mir rasūlin illā kānū bihī yastahzi'ūn(a).",
+      "indo": "Alangkah besar penyesalan terhadap hamba-hamba itu, setiap datang seorang rasul kepada mereka, mereka selalu memperolok-olokkannya.",
+      "en": "How regretful for the servants. There did not come to them any messenger except that they used to ridicule him."
+    },
+    {
+      "index": 31,
+      "arabic": "اَلَمْ يَرَوْا كَمْ اَهْلَكْنَا قَبْلَهُمْ مِّنَ الْقُرُوْنِ اَنَّهُمْ اِلَيْهِمْ لَا يَرْجِعُوْنَ ",
+      "latin": "alam yarau kam ahlaknā qablahum minal-qurūni annahum ilaihim lā yarji‘ūn(a).",
+      "indo": "Tidakkah mereka mengetahui berapa banyak umat-umat sebelum mereka yang telah Kami binasakan. Orang-orang (yang telah Kami binasakan) itu tidak ada yang kembali kepada mereka.",
+      "en": "Have they not considered how many generations We destroyed before them - that they to them will not return?"
+    },
+    {
+      "index": 32,
+      "arabic": "وَاِنْ كُلٌّ لَّمَّا جَمِيْعٌ لَّدَيْنَا مُحْضَرُوْنَ ࣖ",
+      "latin": "wa in kullul lammā jamī‘ul ladainā muḥḍarūn(a).",
+      "indo": "Dan setiap (umat), semuanya akan dihadapkan kepada Kami.",
+      "en": "And indeed, all of them will yet be brought present before Us."
+    },
+    {
+      "index": 33,
+      "arabic": "وَاٰيَةٌ لَّهُمُ الْاَرْضُ الْمَيْتَةُ ۖاَحْيَيْنٰهَا وَاَخْرَجْنَا مِنْهَا حَبًّا فَمِنْهُ يَأْكُلُوْنَ",
+      "latin": "wa āyatul lahumul-arḍul-maitah(tu), aḥyaināhā wa akhrajnā minhā ḥabban faminhu ya'kulūn(a).",
+      "indo": "Dan suatu tanda (kebesaran Allah) bagi mereka adalah bumi yang mati (tandus). Kami hidupkan bumi itu dan Kami keluarkan darinya biji-bijian, maka dari (biji-bijian) itu mereka makan.",
+      "en": "And a sign for them is the dead earth. We have brought it to life and brought forth from it grain, and from it they eat."
+    },
+    {
+      "index": 34,
+      "arabic": "وَجَعَلْنَا فِيْهَا جَنّٰتٍ مِّنْ نَّخِيْلٍ وَّاَعْنَابٍ وَّفَجَّرْنَا فِيْهَا مِنَ الْعُيُوْنِۙ",
+      "latin": "wa ja‘alnā fīhā jannātim min nakhīliw wa a‘nābiw wa fajjarnā fīhā minal-‘uyūn(i).",
+      "indo": "Dan Kami jadikan padanya di bumi itu kebun-kebun kurma dan anggur dan Kami pancarkan padanya beberapa mata air,",
+      "en": "And We placed therein gardens of palm trees and grapevines and caused to burst forth therefrom some springs -"
+    },
+    {
+      "index": 35,
+      "arabic": "لِيَأْكُلُوْا مِنْ ثَمَرِهٖۙ وَمَا عَمِلَتْهُ اَيْدِيْهِمْ ۗ اَفَلَا يَشْكُرُوْنَ ",
+      "latin": "liya'kulū min ṡamarihī wa mā ‘amilathu aidīhim, afalā yasykurūn(a).",
+      "indo": "agar mereka dapat makan dari buahnya, dan dari hasil usaha tangan mereka. Maka mengapa mereka tidak bersyukur?",
+      "en": "That they may eat of His fruit. And their hands have not produced it, so will they not be grateful?"
+    },
+    {
+      "index": 36,
+      "arabic": "سُبْحٰنَ الَّذِيْ خَلَقَ الْاَزْوَاجَ كُلَّهَا مِمَّا تُنْۢبِتُ الْاَرْضُ وَمِنْ اَنْفُسِهِمْ وَمِمَّا لَا يَعْلَمُوْنَ",
+      "latin": "subḥānal-lażī khalaqal-azwāja kullahā mimmā tumbitul-arḍu wa min anfusihim wa mimmā lā ya‘lamūn(a).",
+      "indo": "Mahasuci (Allah) yang telah menciptakan semuanya berpasang-pasangan, baik dari apa yang ditumbuhkan oleh bumi dan dari diri mereka sendiri, maupun dari apa yang tidak mereka ketahui.",
+      "en": "Exalted is He who created all pairs - from what the earth grows and from themselves and from that which they do not know."
+    },
+    {
+      "index": 37,
+      "arabic": "وَاٰيَةٌ لَّهُمُ الَّيْلُ ۖنَسْلَخُ مِنْهُ النَّهَارَ فَاِذَا هُمْ مُّظْلِمُوْنَۙ",
+      "latin": "wa āyatul lahumul-lailu naslakhu minhun-nahāra fa'iżā hum muẓlimūn(a).",
+      "indo": "Dan suatu tanda (kebesaran Allah) bagi mereka adalah malam; Kami tanggalkan siang dari (malam) itu, maka seketika itu mereka (berada dalam) kegelapan,",
+      "en": "And a sign for them is the night. We remove from it [the light of] day, so they are [left] in darkness."
+    },
+    {
+      "index": 38,
+      "arabic": "وَالشَّمْسُ تَجْرِيْ لِمُسْتَقَرٍّ لَّهَا ۗذٰلِكَ تَقْدِيْرُ الْعَزِيْزِ الْعَلِيْمِۗ ",
+      "latin": "wasy-syamsu tajrī limustaqarril lahā, żālika taqdīrul-‘azīzil-‘alīm(i).",
+      "indo": "dan matahari berjalan di tempat peredarannya. Demikianlah ketetapan (Allah) Yang Mahaperkasa, Maha Mengetahui.",
+      "en": "And the sun runs [on course] toward its stopping point. That is the determination of the Exalted in Might, the Knowing."
+    },
+    {
+      "index": 39,
+      "arabic": "وَالْقَمَرَ قَدَّرْنٰهُ مَنَازِلَ حَتّٰى عَادَ كَالْعُرْجُوْنِ الْقَدِيْمِ ",
+      "latin": "wal-qamara qaddarnāhu manāzila ḥattā ‘āda kal-‘urjūnil-qadīm(i).",
+      "indo": "Dan telah Kami tetapkan tempat peredaran bagi bulan, sehingga (setelah ia sampai ke tempat peredaran yang terakhir) kembalilah ia seperti bentuk tandan yang tua.",
+      "en": "And the moon - We have determined for it phases, until it returns [appearing] like the old date stalk."
+    },
+    {
+      "index": 40,
+      "arabic": "لَا الشَّمْسُ يَنْۢبَغِيْ لَهَآ اَنْ تُدْرِكَ الْقَمَرَ وَلَا الَّيْلُ سَابِقُ النَّهَارِ ۗوَكُلٌّ فِيْ فَلَكٍ يَّسْبَحُوْنَ",
+      "latin": "lasy-syamsu yambagī lahā an tudrikal-qamara wa lal-lailu sābiqun-nahār(i), wa kullun fī falakiy yasbaḥūn(a).",
+      "indo": "Tidaklah mungkin bagi matahari mengejar bulan dan malam pun tidak dapat mendahului siang. Masing-masing beredar pada garis edarnya.",
+      "en": "It is not allowable for the sun to reach the moon, nor does the night overtake the day, but each, in an orbit, is swimming."
+    },
+    {
+      "index": 41,
+      "arabic": "وَاٰيَةٌ لَّهُمْ اَنَّا حَمَلْنَا ذُرِّيَّتَهُمْ فِى الْفُلْكِ الْمَشْحُوْنِۙ",
+      "latin": "wa āyatul lahum annā ḥamalnā żurriyyatahum fil-fulkil-masyḥūn(i).",
+      "indo": "Dan suatu tanda (kebesaran Allah) bagi mereka adalah bahwa Kami angkut keturunan mereka dalam kapal yang penuh muatan,",
+      "en": "And a sign for them is that We carried their forefathers in a laden ship."
+    },
+    {
+      "index": 42,
+      "arabic": "وَخَلَقْنَا لَهُمْ مِّنْ مِّثْلِهٖ مَا يَرْكَبُوْنَ",
+      "latin": "wa khalaqnā lahum mim miṡlihī mā yarkabūn(a).",
+      "indo": "dan Kami ciptakan (juga) untuk mereka (angkutan lain) seperti apa yang mereka kendarai.",
+      "en": "And We created for them from the likes of it that which they ride."
+    },
+    {
+      "index": 43,
+      "arabic": "وَاِنْ نَّشَأْ نُغْرِقْهُمْ فَلَا صَرِيْخَ لَهُمْ وَلَاهُمْ يُنْقَذُوْنَۙ",
+      "latin": "wa in nasya' nugriqhum falā ṣarīkha lahum wa lā hum yunqażūn(a).",
+      "indo": "Dan jika Kami menghendaki, Kami tenggelamkan mereka. Maka tidak ada penolong bagi mereka dan tidak (pula) mereka diselamatkan,",
+      "en": "And if We should will, We could drown them; then no one responding to a cry would there be for them, nor would they be saved"
+    },
+    {
+      "index": 44,
+      "arabic": "اِلَّا رَحْمَةً مِّنَّا وَمَتَاعًا اِلٰى حِيْنٍ",
+      "latin": "illā raḥmatam minnā wa matā‘an ilā ḥīn(in).",
+      "indo": "melainkan (Kami selamatkan mereka) karena rahmat yang besar dari Kami dan untuk memberikan kesenangan hidup sampai waktu tertentu.",
+      "en": "Except as a mercy from Us and provision for a time."
+    },
+    {
+      "index": 45,
+      "arabic": "وَاِذَا قِيْلَ لَهُمُ اتَّقُوْا مَا بَيْنَ اَيْدِيْكُمْ وَمَا خَلْفَكُمْ لَعَلَّكُمْ تُرْحَمُوْنَ",
+      "latin": "wa iżā qīla lahumuttaqū mā baina aidīkum wa mā khalfakum la‘allakum turḥamūn(a).",
+      "indo": "Dan apabila dikatakan kepada mereka, “Takutlah kamu akan siksa yang di hadapanmu (di dunia) dan azab yang akan datang (akhirat) agar kamu mendapat rahmat.”",
+      "en": "But when it is said to them, \"Beware of what is before you and what is behind you; perhaps you will receive mercy... \""
+    },
+    {
+      "index": 46,
+      "arabic": "وَمَا تَأْتِيْهِمْ مِّنْ اٰيَةٍ مِّنْ اٰيٰتِ رَبِّهِمْ اِلَّا كَانُوْا عَنْهَا مُعْرِضِيْنَ ",
+      "latin": "wa mā ta'tīhim min āyatim min āyāti rabbihim illā kānū ‘anhā mu‘riḍīn(a).",
+      "indo": "Dan setiap kali suatu tanda dari tanda-tanda (kebesaran) Tuhan datang kepada mereka, mereka selalu berpaling darinya.",
+      "en": "And no sign comes to them from the signs of their Lord except that they are from it turning away."
+    },
+    {
+      "index": 47,
+      "arabic": "وَاِذَا قِيْلَ لَهُمْ اَنْفِقُوْا مِمَّا رَزَقَكُمُ اللّٰهُ ۙقَالَ الَّذِيْنَ كَفَرُوْا لِلَّذِيْنَ اٰمَنُوْٓا اَنُطْعِمُ مَنْ لَّوْ يَشَاۤءُ اللّٰهُ اَطْعَمَهٗٓ  ۖاِنْ اَنْتُمْ اِلَّا فِيْ ضَلٰلٍ مُّبِيْنٍ",
+      "latin": "wa iżā qīla lahum anfiqū mimmā razaqakumullāh(u), qālal-lażīna kafarū lil-lażīna āmanū anuṭ‘imu mal lau yasyā'ullāhu aṭ‘amah(ū), in antum illā fī ḍalālim mubīn(in).",
+      "indo": "Dan apabila dikatakan kepada mereka, “Infakkanlah sebagian rezeki yang diberikan Allah kepadamu,” orang-orang yang kafir itu berkata kepada orang-orang yang beriman, “Apakah pantas kami memberi makan kepada orang-orang yang jika Allah menghendaki Dia akan memberinya makan? Kamu benar-benar dalam kesesatan yang nyata.”",
+      "en": "And when it is said to them, \"Spend from that which Allah has provided for you,\" those who disbelieve say to those who believe, \"Should we feed one whom, if Allah had willed, He would have fed? You are not but in clear error.\""
+    },
+    {
+      "index": 48,
+      "arabic": "وَيَقُوْلُوْنَ مَتٰى هٰذَا الْوَعْدُ اِنْ كُنْتُمْ صٰدِقِيْنَ",
+      "latin": "wa yaqūlūna matā hāżal-wa‘du in kuntum ṣādiqīn(a).",
+      "indo": "Dan mereka (orang-orang kafir) berkata, “Kapan janji (hari berbangkit) itu (terjadi) jika kamu orang yang benar?”",
+      "en": "And they say, \"When is this promise, if you should be truthful?\""
+    },
+    {
+      "index": 49,
+      "arabic": "مَا يَنْظُرُوْنَ اِلَّا صَيْحَةً وَّاحِدَةً تَأْخُذُهُمْ وَهُمْ يَخِصِّمُوْنَ",
+      "latin": "mā yanẓurūna illā ṣaiḥataw wāḥidatan ta'khużuhum wa hum yakhiṣṣimūn(a).",
+      "indo": "Mereka hanya menunggu satu teriakan, yang akan membinasakan mereka ketika mereka sedang bertengkar.",
+      "en": "They do not await except one blast which will seize them while they are disputing."
+    },
+    {
+      "index": 50,
+      "arabic": "فَلَا يَسْتَطِيْعُوْنَ تَوْصِيَةً وَّلَآ اِلٰٓى اَهْلِهِمْ يَرْجِعُوْنَ ࣖ  ",
+      "latin": "falā yastaṭī‘ūna tauṣiyataw wa lā ilā ahlihim yarji‘ūn(a).",
+      "indo": "Sehingga mereka tidak mampu membuat suatu wasiat dan mereka (juga) tidak dapat kembali kepada keluarganya.",
+      "en": "And they will not be able [to give] any instruction, nor to their people can they return."
+    },
+    {
+      "index": 51,
+      "arabic": "وَنُفِخَ فِى الصُّوْرِ فَاِذَا هُمْ مِّنَ الْاَجْدَاثِ اِلٰى رَبِّهِمْ يَنْسِلُوْنَ",
+      "latin": "wa nufikha fiṣ-ṣūri fa'iżā hum minal-ajdāṡi ilā rabbihim yansilūn(a).",
+      "indo": "Lalu ditiuplah sangkakala, maka seketika itu mereka keluar dari kuburnya (dalam keadaan hidup), menuju kepada Tuhannya.",
+      "en": "And the Horn will be blown; and at once from the graves to their Lord they will hasten."
+    },
+    {
+      "index": 52,
+      "arabic": "قَالُوْا يٰوَيْلَنَا مَنْۢ بَعَثَنَا مِنْ مَّرْقَدِنَا ۜهٰذَا مَا وَعَدَ الرَّحْمٰنُ وَصَدَقَ الْمُرْسَلُوْنَ",
+      "latin": "qālū yā wailanā mam ba‘aṡanā mim marqadinā…hāżā mā wa‘adar-raḥmānu wa ṣadaqal-mursalūn(a).",
+      "indo": "Mereka berkata, “Celakalah kami! Siapakah yang membangkitkan kami dari tempat tidur kami (kubur)?” Inilah yang dijanjikan (Allah) Yang Maha Pengasih dan benarlah rasul-rasul(-Nya).",
+      "en": "They will say, \"O woe to us! Who has raised us up from our sleeping place?\" [The reply will be], \"This is what the Most Merciful had promised, and the messengers told the truth.\""
+    },
+    {
+      "index": 53,
+      "arabic": "اِنْ كَانَتْ اِلَّا صَيْحَةً وَّاحِدَةً فَاِذَا هُمْ جَمِيْعٌ لَّدَيْنَا مُحْضَرُوْنَ",
+      "latin": "in kānat illā ṣaiḥataw wāḥidatan fa'iżā hum jamī‘ul ladainā muḥḍarūn(a).",
+      "indo": "Teriakan itu hanya sekali saja, maka seketika itu mereka semua dihadapkan kepada Kami (untuk dihisab).",
+      "en": "It will not be but one blast, and at once they are all brought present before Us."
+    },
+    {
+      "index": 54,
+      "arabic": "فَالْيَوْمَ لَا تُظْلَمُ نَفْسٌ شَيْـًٔا وَّلَا تُجْزَوْنَ اِلَّا مَا كُنْتُمْ تَعْمَلُوْنَ",
+      "latin": "fal-yauma lā tuẓlamu nafsun syai'aw wa lā tujzauna illā mā kuntum ta‘malūn(a).",
+      "indo": "Maka pada hari itu seseorang tidak akan dirugikan sedikit pun dan kamu tidak akan diberi balasan, kecuali sesuai dengan apa yang telah kamu kerjakan.",
+      "en": "So today no soul will be wronged at all, and you will not be recompensed except for what you used to do."
+    },
+    {
+      "index": 55,
+      "arabic": "اِنَّ اَصْحٰبَ الْجَنَّةِ الْيَوْمَ فِيْ شُغُلٍ فٰكِهُوْنَ ۚ  ",
+      "latin": "inna aṣḥābal-jannatil-yauma fī syugulin fākihūn(a).",
+      "indo": "Sesungguhnya penghuni surga pada hari itu bersenang-senang dalam kesibukan (mereka).",
+      "en": "Indeed the companions of Paradise, that Day, will be amused in [joyful] occupation -"
+    },
+    {
+      "index": 56,
+      "arabic": "هُمْ وَاَزْوَاجُهُمْ فِيْ ظِلٰلٍ عَلَى الْاَرَاۤىِٕكِ مُتَّكِـُٔوْنَ ۚ   ",
+      "latin": "hum wa azwājuhum fī ẓilālin ‘alal-arā'iki muttaki'ūn(a).",
+      "indo": "Mereka dan pasangan-pasangannya berada dalam tempat yang teduh, bersandar di atas dipan-dipan.",
+      "en": "They and their spouses - in shade, reclining on adorned couches."
+    },
+    {
+      "index": 57,
+      "arabic": "لَهُمْ فِيْهَا فَاكِهَةٌ وَّلَهُمْ مَّا يَدَّعُوْنَ ۚ ",
+      "latin": "lahum fīhā fākihatuw wa lahum mā yadda‘ūn(a).",
+      "indo": "Di surga itu mereka memperoleh buah-buahan dan memperoleh apa saja yang mereka inginkan.",
+      "en": "For them therein is fruit, and for them is whatever they request [or wish]"
+    },
+    {
+      "index": 58,
+      "arabic": "سَلٰمٌۗ قَوْلًا مِّنْ رَّبٍّ رَّحِيْمٍ",
+      "latin": "salāmun qaulam mir rabbir raḥīm(in).",
+      "indo": "(Kepada mereka dikatakan), “Salam,” sebagai ucapan selamat dari Tuhan Yang Maha Penyayang.",
+      "en": "[And] \"Peace,\" a word from a Merciful Lord."
+    },
+    {
+      "index": 59,
+      "arabic": "وَامْتَازُوا الْيَوْمَ اَيُّهَا الْمُجْرِمُوْنَ",
+      "latin": "wamtāzul-yauma ayyuhal-mujrimūn(a).",
+      "indo": "Dan (dikatakan kepada orang-orang kafir), “Berpisahlah kamu (dari orang-orang mukmin) pada hari ini, wahai orang-orang yang berdosa!",
+      "en": "[Then He will say], \"But stand apart today, you criminals."
+    },
+    {
+      "index": 60,
+      "arabic": "۞ اَلَمْ اَعْهَدْ اِلَيْكُمْ يٰبَنِيْٓ اٰدَمَ اَنْ لَّا تَعْبُدُوا الشَّيْطٰنَۚ اِنَّهٗ لَكُمْ عَدُوٌّ مُّبِيْنٌ ",
+      "latin": "alam a‘had ilaikum yā banī ādama allā ta‘budusy-syaiṭān(a), innahū lakum ‘aduwwum mubīn(un).",
+      "indo": "Bukankah Aku telah memerintahkan kepadamu wahai anak cucu Adam agar kamu tidak menyembah setan? Sungguh, setan itu musuh yang nyata bagi kamu,",
+      "en": "Did I not enjoin upon you, O children of Adam, that you not worship Satan - [for] indeed, he is to you a clear enemy -"
+    },
+    {
+      "index": 61,
+      "arabic": "وَاَنِ اعْبُدُوْنِيْ ۗهٰذَا صِرَاطٌ مُّسْتَقِيْمٌ ",
+      "latin": "wa ani‘budūnī, hāżā ṣirāṭum mustaqīm(un).",
+      "indo": "dan hendaklah kamu menyembah-Ku. Inilah jalan yang lurus.”",
+      "en": "And that you worship [only] Me? This is a straight path."
+    },
+    {
+      "index": 62,
+      "arabic": "وَلَقَدْ اَضَلَّ مِنْكُمْ جِبِلًّا كَثِيْرًا ۗاَفَلَمْ تَكُوْنُوْا تَعْقِلُوْنَ ",
+      "latin": "wa laqad aḍalla minkum jibillan kaṡīrā(n), afalam takūnū ta‘qilūn(a).",
+      "indo": "Dan sungguh, ia (setan itu) telah menyesatkan sebagian besar di antara kamu. Maka apakah kamu tidak mengerti?",
+      "en": "And he had already led astray from among you much of creation, so did you not use reason?"
+    },
+    {
+      "index": 63,
+      "arabic": "هٰذِهٖ جَهَنَّمُ الَّتِيْ كُنْتُمْ تُوْعَدُوْنَ",
+      "latin": "hāżihī jahannamul-latī kuntum tū‘adūn(a).",
+      "indo": "Inilah (neraka) Jahanam yang dahulu telah diperingatkan kepadamu.",
+      "en": "This is the Hellfire which you were promised."
+    },
+    {
+      "index": 64,
+      "arabic": "اِصْلَوْهَا الْيَوْمَ بِمَا كُنْتُمْ تَكْفُرُوْنَ ",
+      "latin": "iṣlauhal-yauma bimā kuntum takfurūn(a).",
+      "indo": "Masuklah ke dalamnya pada hari ini karena dahulu kamu mengingkarinya.",
+      "en": "[Enter to] burn therein today for what you used to deny.\""
+    },
+    {
+      "index": 65,
+      "arabic": "اَلْيَوْمَ نَخْتِمُ عَلٰٓى اَفْوَاهِهِمْ وَتُكَلِّمُنَآ اَيْدِيْهِمْ وَتَشْهَدُ اَرْجُلُهُمْ بِمَا كَانُوْا يَكْسِبُوْنَ ",
+      "latin": "al-yauma nakhtimu ‘alā afwāhihim wa tukallimunā aidīhim wa tasyhadu arjuluhum bimā kānū yaksibūn(a).",
+      "indo": "Pada hari ini Kami tutup mulut mereka; tangan mereka akan berkata kepada Kami dan kaki mereka akan memberi kesaksian terhadap apa yang dahulu mereka kerjakan.",
+      "en": "That Day, We will seal over their mouths, and their hands will speak to Us, and their feet will testify about what they used to earn."
+    },
+    {
+      "index": 66,
+      "arabic": "وَلَوْ نَشَاۤءُ لَطَمَسْنَا عَلٰٓى اَعْيُنِهِمْ فَاسْتَبَقُوا الصِّرَاطَ فَاَنّٰى يُبْصِرُوْنَ",
+      "latin": "wa lau nasyā'u laṭamasnā ‘alā a‘yunihim fastabaquṣ-ṣirāṭa fa annā yubṣirūn(a).",
+      "indo": "Dan jika Kami menghendaki, pastilah Kami hapuskan penglihatan mata mereka; sehingga mereka berlomba-lomba (mencari) jalan. Maka bagaimana mungkin mereka dapat melihat?",
+      "en": "And if We willed, We could have obliterated their eyes, and they would race to [find] the path, and how could they see?"
+    },
+    {
+      "index": 67,
+      "arabic": "وَلَوْ نَشَاۤءُ لَمَسَخْنٰهُمْ عَلٰى مَكَانَتِهِمْ فَمَا اسْتَطَاعُوْا مُضِيًّا وَّلَا يَرْجِعُوْنَ ࣖ ",
+      "latin": "wa lau nasyā'u lamasakhnāhum ‘alā makānatihim famastaṭā‘ū muḍiyyaw wa lā yarji‘ūn(a).",
+      "indo": "Dan jika Kami menghendaki, pastilah Kami ubah bentuk mereka di tempat mereka berada; sehingga mereka tidak sanggup berjalan lagi dan juga tidak sanggup kembali.",
+      "en": "And if We willed, We could have deformed them, [paralyzing them] in their places so they would not be able to proceed, nor could they return."
+    },
+    {
+      "index": 68,
+      "arabic": "وَمَنْ نُّعَمِّرْهُ نُنَكِّسْهُ فِى الْخَلْقِۗ اَفَلَا يَعْقِلُوْنَ ",
+      "latin": "wa man nu‘ammirhu nunakkishu fil-khalq(i), afalā ya‘qilūn(a).",
+      "indo": "Dan barangsiapa Kami panjangkan umurnya niscaya Kami kembalikan dia kepada awal kejadian(nya). Maka mengapa mereka tidak mengerti?",
+      "en": "And he to whom We grant long life We reverse in creation; so will they not understand?"
+    },
+    {
+      "index": 69,
+      "arabic": "وَمَا عَلَّمْنٰهُ الشِّعْرَ وَمَا يَنْۢبَغِيْ لَهٗ ۗاِنْ هُوَ اِلَّا ذِكْرٌ وَّقُرْاٰنٌ مُّبِيْنٌ ۙ",
+      "latin": "wa mā ‘allamnāhusy-syi‘ra wa mā yambagī lah(ū), in huwa illā żikruw wa qur'ānum mubīn(un).",
+      "indo": "Dan Kami tidak mengajarkan syair kepadanya (Muhammad) dan bersyair itu tidaklah pantas baginya. Al-Qur'an itu tidak lain hanyalah pelajaran dan Kitab yang jelas,",
+      "en": "And We did not give Prophet Muhammad, knowledge of poetry, nor is it befitting for him. It is not but a message and a clear Qur'an"
+    },
+    {
+      "index": 70,
+      "arabic": "لِّيُنْذِرَ مَنْ كَانَ حَيًّا وَّيَحِقَّ الْقَوْلُ عَلَى الْكٰفِرِيْنَ",
+      "latin": "liyunżira man kāna ḥayyaw wa yaḥiqqal-qaulu ‘alal-kāfirīn(a).",
+      "indo": "agar dia (Muhammad) memberi peringatan kepada orang-orang yang hidup (hatinya) dan agar pasti ketetapan (azab) terhadap orang-orang kafir.",
+      "en": "To warn whoever is alive and justify the word against the disbelievers."
+    },
+    {
+      "index": 71,
+      "arabic": "اَوَلَمْ يَرَوْا اَنَّا خَلَقْنَا لَهُمْ مِّمَّا عَمِلَتْ اَيْدِيْنَآ اَنْعَامًا فَهُمْ لَهَا مٰلِكُوْنَ ",
+      "latin": "awalam yarau annā khalaqnā lahum mimmā ‘amilat aidīnā an‘āman fahum lahā mālikūn(a).",
+      "indo": "Dan tidakkah mereka melihat bahwa Kami telah menciptakan hewan ternak untuk mereka, yaitu sebagian dari apa yang telah Kami ciptakan dengan kekuasaan Kami, lalu mereka menguasainya?",
+      "en": "Do they not see that We have created for them from what Our hands have made, grazing livestock, and [then] they are their owners?"
+    },
+    {
+      "index": 72,
+      "arabic": "وَذَلَّلْنٰهَا لَهُمْ فَمِنْهَا رَكُوْبُهُمْ وَمِنْهَا يَأْكُلُوْنَ ",
+      "latin": "wa żallalnāhā lahum fa minhā rakūbuhum wa minhā ya'kulūn(a).",
+      "indo": "Dan Kami menundukkannya (hewan-hewan itu) untuk mereka; lalu sebagiannya untuk menjadi tunggangan mereka dan sebagian untuk mereka makan.",
+      "en": "And We have tamed them for them, so some of them they ride, and some of them they eat."
+    },
+    {
+      "index": 73,
+      "arabic": "وَلَهُمْ فِيْهَا مَنَافِعُ وَمَشَارِبُۗ اَفَلَا يَشْكُرُوْنَ ",
+      "latin": "wa lahum fīhā manāfi‘u wa masyārib(u), afalā yasykurūn(a).",
+      "indo": "Dan mereka memperoleh berbagai manfaat dan minuman darinya. Maka mengapa mereka tidak bersyukur?",
+      "en": "And for them therein are [other] benefits and drinks, so will they not be grateful?"
+    },
+    {
+      "index": 74,
+      "arabic": "وَاتَّخَذُوْا مِنْ دُوْنِ اللّٰهِ اٰلِهَةً لَّعَلَّهُمْ يُنْصَرُوْنَ ۗ ",
+      "latin": "wattakhażū min dūnillāhi ālihatal la‘allahum yunṣarūn(a).",
+      "indo": "Dan mereka mengambil sesembahan selain Allah agar mereka mendapat pertolongan.",
+      "en": "But they have taken besides Allah [false] deities that perhaps they would be helped."
+    },
+    {
+      "index": 75,
+      "arabic": "لَا يَسْتَطِيْعُوْنَ نَصْرَهُمْۙ وَهُمْ لَهُمْ جُنْدٌ مُّحْضَرُوْنَ",
+      "latin": "lā yastaṭī‘ūna naṣrahum, wa hum lahum jundum muḥḍarūn(a).",
+      "indo": "Mereka (sesembahan) itu tidak dapat menolong mereka; padahal mereka itu menjadi tentara yang disiapkan untuk menjaga (sesembahan) itu.",
+      "en": "They are not able to help them, and they [themselves] are for them soldiers in attendance."
+    },
+    {
+      "index": 76,
+      "arabic": "فَلَا يَحْزُنْكَ قَوْلُهُمْ ۘاِنَّا نَعْلَمُ مَا يُسِرُّوْنَ وَمَا يُعْلِنُوْنَ ",
+      "latin": "falā yaḥzunka qauluhum, innā na‘lamu mā yusirrūna wa mā yu‘linūn(a).",
+      "indo": "Maka jangan sampai ucapan mereka membuat engkau (Muhammad) bersedih hati. Sungguh, Kami mengetahui apa yang mereka rahasiakan dan apa yang mereka nyatakan.",
+      "en": "So let not their speech grieve you. Indeed, We know what they conceal and what they declare."
+    },
+    {
+      "index": 77,
+      "arabic": "اَوَلَمْ يَرَ الْاِنْسَانُ اَنَّا خَلَقْنٰهُ مِنْ نُّطْفَةٍ فَاِذَا هُوَ خَصِيْمٌ مُّبِيْنٌ ",
+      "latin": "awalam yaral-insānu annā khalaqnāhu min nuṭfatin fa'iżā huwa khaṣīmum mubīn(un).",
+      "indo": "Dan tidakkah manusia memperhatikan bahwa Kami menciptakannya dari setetes mani, ternyata dia menjadi musuh yang nyata!",
+      "en": "Does man not consider that We created him from a [mere] sperm-drop - then at once he is a clear adversary?"
+    },
+    {
+      "index": 78,
+      "arabic": "وَضَرَبَ لَنَا مَثَلًا وَّنَسِيَ خَلْقَهٗۗ قَالَ مَنْ يُّحْيِ الْعِظَامَ وَهِيَ رَمِيْمٌ ",
+      "latin": "wa ḍaraba lanā maṡalaw wa nasiya khalqah(ū), qāla may yuḥyil-‘iẓāma wa hiya ramīm(un).",
+      "indo": "Dan dia membuat perumpamaan bagi Kami dan melupakan asal kejadiannya; dia berkata, “Siapakah yang dapat menghidupkan tulang-belulang, yang telah hancur luluh?”",
+      "en": "And he presents for Us an example and forgets his [own] creation. He says, \"Who will give life to bones while they are disintegrated?\""
+    },
+    {
+      "index": 79,
+      "arabic": "قُلْ يُحْيِيْهَا الَّذِيْٓ اَنْشَاَهَآ اَوَّلَ مَرَّةٍ ۗوَهُوَ بِكُلِّ خَلْقٍ عَلِيْمٌ ۙ",
+      "latin": "qul yuḥyīhal-lażī ansya'ahā awwala marrah(tin), wa huwa bikulli khalqin ‘alīm(un).",
+      "indo": "Katakanlah (Muhammad), “Yang akan menghidupkannya ialah (Allah) yang menciptakannya pertama kali. Dan Dia Maha Mengetahui tentang segala makhluk,",
+      "en": "Say, \"He will give them life who produced them the first time; and He is, of all creation, Knowing.\""
+    },
+    {
+      "index": 80,
+      "arabic": " ۨالَّذِيْ جَعَلَ لَكُمْ مِّنَ الشَّجَرِ الْاَخْضَرِ نَارًاۙ فَاِذَآ اَنْتُمْ مِّنْهُ تُوْقِدُوْنَ ",
+      "latin": "allażī ja‘ala lakum minasy-syajaril-akhḍari nārā(n), fa'iżā antum minhu tūqidūn(a).",
+      "indo": "yaitu (Allah) yang menjadikan api untukmu dari kayu yang hijau, maka seketika itu kamu nyalakan (api) dari kayu itu.”",
+      "en": "[It is] He who made for you from the green tree, fire, and then from it you ignite."
+    },
+    {
+      "index": 81,
+      "arabic": "اَوَلَيْسَ الَّذِيْ خَلَقَ السَّمٰوٰتِ وَالْاَرْضَ بِقٰدِرٍ عَلٰٓى اَنْ يَّخْلُقَ مِثْلَهُمْ ۗبَلٰى وَهُوَ الْخَلّٰقُ الْعَلِيْمُ ",
+      "latin": "awa laisal-lażī khalaqas-samāwāti wal-arḍa biqādirin ‘alā ay yakhluqa miṡlahum, balā wa huwal-khallāqul-‘alīm(u).",
+      "indo": "Dan bukankah (Allah) yang menciptakan langit dan bumi, mampu menciptakan kembali yang serupa itu (jasad mereka yang sudah hancur itu)? Benar, dan Dia Maha Pencipta, Maha Mengetahui.",
+      "en": "Is not He who created the heavens and the earth Able to create the likes of them? Yes, [it is so]; and He is the Knowing Creator."
+    },
+    {
+      "index": 82,
+      "arabic": "اِنَّمَآ اَمْرُهٗٓ اِذَآ اَرَادَ شَيْـًٔاۖ اَنْ يَّقُوْلَ لَهٗ كُنْ فَيَكُوْنُ ",
+      "latin": "innamā amruhū iżā arāda syai'an ay yaqūla lahū kun fa yakūn(u).",
+      "indo": "Sesungguhnya urusan-Nya apabila Dia menghendaki sesuatu Dia hanya berkata kepadanya, “Jadilah!” Maka jadilah sesuatu itu.",
+      "en": "His command is only when He intends a thing that He says to it, \"Be,\" and it is."
+    },
+    {
+      "index": 83,
+      "arabic": "فَسُبْحٰنَ الَّذِيْ بِيَدِهٖ مَلَكُوْتُ كُلِّ شَيْءٍ وَّاِلَيْهِ تُرْجَعُوْنَ ࣖ",
+      "latin": "fa subḥānal-lażī biyadihī malakūtu kulli syai'iw wa ilaihi turja‘ūn(a).",
+      "indo": "Maka Mahasuci (Allah) yang di tangan-Nya kekuasaan atas segala sesuatu dan kepada-Nya kamu dikembalikan.",
+      "en": "So exalted is He in whose hand is the realm of all things, and to Him you will be returned."
+    }
+  ]
+}
